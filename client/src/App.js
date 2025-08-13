@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import SimplePeer from 'simple-peer';
 import './App.css';
 
-const socket = io('http://localhost:4000'); // server URL
+const socket = io('https://video-chat-app-061m.onrender.com'); // server URL
 
 function App() {
 
